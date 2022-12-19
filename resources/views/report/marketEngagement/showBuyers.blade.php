@@ -1,0 +1,1 @@
+{!! Form::select('buyer_id', $buyersList, $request->buyer_id, ['class' => 'form-control js-source-states', 'id' => 'buyerId', 'data-product-id' => $request->product_id]) !!}

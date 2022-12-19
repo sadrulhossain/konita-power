@@ -1,0 +1,1 @@
+{!! Form::select('machine_type_id', $machineTypeList, Request::get('machine_type_id'), ['class' => 'form-control js-source-states', 'id' => 'machineTypeId']) !!}

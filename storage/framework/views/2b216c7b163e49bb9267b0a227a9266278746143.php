@@ -1,0 +1,1 @@
+<?php echo Form::select('salespersons_id', $salesPersonList, null, ['class' => 'form-control js-source-states', 'id' => 'salespersonsId']); ?><?php /**PATH E:\xampp_7_4_15\htdocs\konitaPower\resources\views/lead/showSalesPerson.blade.php ENDPATH**/ ?>

@@ -1,0 +1,2 @@
+{!! Form::text('remain_quantity', ($remainingQuantity > 0)?$remainingQuantity:0, ['id'=> 'remainingQuantity', 'class' => 'form-control integer-only','autocomplete' => 'off', 'disabled']) !!} 
+{!! Form::hidden('remaining_quantity', ($remainingQuantity > 0)?$remainingQuantity:0) !!}

@@ -1,0 +1,1 @@
+<?php echo Form::select('product_id', $productList, null, ['class' => 'form-control js-source-states', 'id' => 'productId']); ?><?php /**PATH E:\xampp_7_4_15\htdocs\konitaPower\resources\views/lead/showProduct.blade.php ENDPATH**/ ?>

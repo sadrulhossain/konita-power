@@ -1,0 +1,1 @@
+{!! Form::select('factory_id', $factoryList, null, ['class' => 'form-control js-source-states', 'id' => 'factoryId']) !!}

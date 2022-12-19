@@ -1,0 +1,1 @@
+{!! Form::select('supplier_id', $supplierList, null, ['class' => 'form-control js-source-states', 'id' => 'supplierId']) !!}

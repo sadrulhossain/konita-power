@@ -1,0 +1,1 @@
+<?php echo Form::select('factory_id', $factoryList, null, ['class' => 'form-control js-source-states', 'id' => 'factoryId']); ?><?php /**PATH E:\xampp_7_4_15\htdocs\konitaPower\resources\views/lead/showFactory.blade.php ENDPATH**/ ?>

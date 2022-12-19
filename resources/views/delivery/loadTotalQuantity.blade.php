@@ -1,0 +1,2 @@
+{!! Form::text('tot_quantity', !empty($order)?$order->lc_value:'', ['id'=> 'totalQuantity', 'class' => 'form-control integer-only','autocomplete' => 'off', 'disabled']) !!}
+{!! Form::hidden('total_quantity', !empty($order)?$order->lc_value:'') !!}

@@ -1,0 +1,1 @@
+ <?php echo Form::select('brand_id', $brandList,null, ['class' => 'form-control js-source-states', 'id' => 'brandId']); ?><?php /**PATH E:\xampp_7_4_15\htdocs\konitaPower\resources\views/pendingOrder/rwBreakdown/showBrand.blade.php ENDPATH**/ ?>
